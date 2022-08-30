@@ -105,15 +105,16 @@ input{
 }
 /* Styling print button */
 #print{
+    margin-top: 0.5vh;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-left: 10px;
     margin-right: auto;
 }
 
 #clear{
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-left: auto;
     
 }
