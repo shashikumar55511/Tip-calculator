@@ -95,8 +95,8 @@ input{
 /* styling of footer */
 #footer{
     margin-top: 11vh;
-    background-color: rgb(11, 238, 98);
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 15px;
     text-align: center;
     padding: 20px;
