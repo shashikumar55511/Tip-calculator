@@ -81,7 +81,7 @@ input{
 }
 /* styling of display which show calculation */
 #display{
-    text-align: center;
+    text-align: left;
     padding: 10px;
     background-color: #F2AA4CFF;
     margin-top: 10px;
