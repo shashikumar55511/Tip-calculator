@@ -26,9 +26,9 @@ function calTot(){
             
             let a=document.createElement('div')
             a.setAttribute('id','display');
-            a.innerHTML=`<div class="create">Per person Tip amount (₹):${amtDiv}</div>
-                        <div class="create">Per person need to pay (₹):${eachAmt}</div>
-                        <div class="create">Total amount + total tip (₹):${totalamt}</div>
+            a.innerHTML=`<div class="create">Tip Amount (Individual) :${ amtDiv}</div>
+                        <div class="create">Amount Need To Pay (Individual) :${ eachAmt}</div>
+                        <div class="create">Total Amount (Bill Amount + Total Tip) :${ totalamt}</div>
                         <button id="clear" onclick="earse(this)">Clear</button>
                         <button id="print" onclick="window.print()">Print</button>`
         
@@ -42,7 +42,7 @@ function calTot(){
 }
 function clearText(){
     document.getElementById("billamt").value='';
-    document.getElementById("peopleamt").value=1;
+    document.getElementById("peopleamt").value='';
     document.getElementById("tip").value='';
 }
 function earse(event){
