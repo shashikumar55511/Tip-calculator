@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-font-family: Georgia, serif;
+    font-family: Georgia, serif;
     font-weight: bolder;
       background-image: url(https://static8.depositphotos.com/1012094/859/v/450/depositphotos_8593952-stock-illustration-beautiful-indian-flag.jpg);
       height:100%;
@@ -18,31 +18,31 @@ font-family: Georgia, serif;
 #head{
     text-align: center;
     padding: 20px;
-    background-color: #101820FF;
-    color: #F2AA4CFF;
+    background-color: royalblue;
+    color: black;
+    box-shadow:0 10px 4px rgba(12, 91, 175, 0.15);
 }
 /* styling of main container */
 #container{
-  margin-top: 15vh;
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-content: center;
-    box-shadow: 55px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    padding: 2%;
-    opacity: 0.8;
     
 }
 
 /* this a contanier which is made under main conatiner and styling of it*/
 #con{
-    padding: 20px;
-    border: 1px solid #F2AA4CFF;
-    border-radius: 10px;
-    background: #101820FF;
-    
-    width: 35%;
-    min-height: 300px;
+    padding: 55px;
+    border: 11px solid #F2AA4CFF;
+    border-radius: 16px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYw25xSbs7t-tMvwM8Ey7qPTVWVLI-UTxyOQ&usqp=CAU);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    width: 27%;
+    min-height: 490px;
     
 
 }
@@ -50,11 +50,11 @@ font-family: Georgia, serif;
 
 /* styling of label of input field */
 #bill ,#people,  #option{
-    padding: 20px 5px 20px 5px;
+    padding: 20px 3px 20px 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #F2AA4CFF;
+    color: black;
     
     
 }
@@ -72,10 +72,12 @@ input{
 } */
 /* styling of calculate button */
 #calculate{
-    margin-top: 3px;
-    width: 100%;
-    padding: 3px 0px 3px 0px;
-    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(182, 201, 10);
+    width: 15%;
+    padding: 10px 10px 10px 2px;
+    border-radius: 50px;
 }
 /* styling of display which show calculation */
 #display{
@@ -93,11 +95,13 @@ input{
 /* styling of footer */
 #footer{
     margin-top: 16vh;
-    background-color: #101820FF;
-    color: #F2AA4CFF;
+    background-color: rgb(11, 238, 98);
+    color: black;
     font-size: 15px;
     text-align: center;
     padding: 20px;
+    border-radius: 160px;
+    box-shadow:0 10px 4px rgba(12, 91, 175, 0.15);
     
 }
 /* Styling print button */
