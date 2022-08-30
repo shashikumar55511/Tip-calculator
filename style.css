@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+body{
+    background: url(data:image/jpeg;base64,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);
+}
+/* styling of header */
+#head{
+    text-align: center;
+    padding: 20px;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+}
+/* styling of main container */
+#container{
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+/* this a contanier which is made under main conatiner and styling of it*/
+#con{
+    padding: 20px;
+    border: 1px solid #F2AA4CFF;
+    border-radius: 10px;
+    background: #101820FF;
+    
+    width: 35%;
+    min-height: 300px;
+    
+
+}
+
+
+/* styling of label of input field */
+#bill ,#people,  #option{
+    padding: 20px 5px 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F2AA4CFF;
+    
+    
+}
+/* styling of every input field */
+input{
+    height: 30px;
+    text-align: right;
+    padding: 5px;
+    min-width: 60px;
+    
+}
+
+/* input:hover{
+    background-color: blue;
+} */
+/* styling of calculate button */
+#calculate{
+    margin-top: 3px;
+    width: 100%;
+    padding: 3px 0px 3px 0px;
+    border-radius: 5px;
+}
+/* styling of display which show calculation */
+#display{
+    text-align: center;
+    padding: 10px;
+    background-color: #F2AA4CFF;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;   
+    color: #101820FF;
+}
+
+/* styling of footer */
+#footer{
+    margin-top: 16vh;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    
+}
+/* Styling print button */
+#print{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#clear{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    
+}

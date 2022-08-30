@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="head"> <h1>Tip calculator</h1></div> 
+    </header>
+    <hr>
+    <div id="container"> 
+        <div id="con">
+            
+            <div id="bill">
+                <label class="space">
+                    <b>Bill amount (₹) :</b>
+                </label>
+                <input id="billamt" type="number" required placeholder="Enter your bill amount">
+            </div>
+            
+            <div id="people">
+                <label class="space">
+                    <b>Number of people :</b>
+                </label>
+                <input id="peopleamt" type="number" required value="1" placeholder="Enter no of People">
+            </div>
+
+            <div id="option">
+                <label class="space">
+                    <b>Tip (%) :</b>
+                </label>
+                <input type="number" id="tip" placeholder="Enter tip per" min-value="1" max-value="99" required>
+            </div>
+
+            <button id="calculate" onclick="calTot()" >
+            Calculate
+            </button>
+            
+            
+        </div>
+    </div>
+    <footer>
+        <div id="footer">@copyRight-Gautampal-2022</div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
