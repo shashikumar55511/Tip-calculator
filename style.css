@@ -24,7 +24,7 @@ body{
 }
 /* styling of main container */
 #container{
-    margin-top: 12vh;
+    margin-top: 6vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -94,7 +94,7 @@ input{
 
 /* styling of footer */
 #footer{
-    margin-top: 13vh;
+    margin-top: 10vh;
     background-color: rgb(11, 238, 98);
     color: black;
     font-size: 15px;
